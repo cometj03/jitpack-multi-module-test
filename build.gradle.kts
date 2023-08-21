@@ -10,4 +10,7 @@ buildscript {
         google()
         mavenCentral()
     }
+    dependencies {
+        classpath("com.github.dcendents:android-maven-gradle-plugin:2.1")
+    }
 }
