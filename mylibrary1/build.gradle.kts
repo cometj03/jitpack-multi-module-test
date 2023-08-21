@@ -37,11 +37,8 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("maven") {
+            create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.cometj.mylibrary1"
-                artifactId = "final"
-                version = "1.0"
             }
         }
     }
