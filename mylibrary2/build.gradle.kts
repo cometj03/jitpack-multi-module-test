@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     `maven-publish`
 }
+apply(plugin = "maven-publish")
 
 android {
     namespace = "com.cometj.mylibrary2"
