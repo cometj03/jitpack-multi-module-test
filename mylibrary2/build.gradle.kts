@@ -39,7 +39,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("maven") {
                 from(components["release"])
-                groupId = "com.cometj.mylibrary1"
+                groupId = "com.cometj.mylibrary2"
                 artifactId = "final"
                 version = "1.0"
             }
