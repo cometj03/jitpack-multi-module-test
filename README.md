@@ -1,0 +1,1 @@
+jitpack multi module test
